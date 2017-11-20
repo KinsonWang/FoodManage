@@ -125,6 +125,14 @@ public class AddTemFrame extends JFrame {
 		btn_no.setBounds(220, 177, 113, 27);
 		contentPane.add(btn_no);
 		
+		JLabel label = new JLabel("℃");
+		label.setBounds(290, 64, 72, 18);
+		contentPane.add(label);
+		
+		JLabel label_1 = new JLabel(" %");
+		label_1.setBounds(290, 95, 72, 18);
+		contentPane.add(label_1);
+		
 	}
 	
 	private static DatePicker getDatePicker() {
@@ -156,5 +164,4 @@ public class AddTemFrame extends JFrame {
         datepick.setTimePanleVisible(true);
         return datepick;
     }
-
 }
